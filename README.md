@@ -1,7 +1,7 @@
 # 🧪 BRD Rickest Rick Relay (v1.0)
 
 > *“Listen to me, Morty. Just enter a shop name and a 4-digit PIN. Don’t overthink it.”*
-![Download BRD Rickest Rick Relay v1.0.0](https://github.com/blackbird-citadel/BRD_RICKEST_RICK_RELAY/releases/download/v1.0.0/app-debug.apk)
+[![Download APK](https://img.shields.io/badge/Download_APK-v1.0.0-green?style=for-the-badge&logo=android)](https://github.com/blackbird-citadel/BRD_RICKEST_RICK_RELAY/releases/download/v1.0.0/app-debug.apk)
 ![App Size](https://img.shields.io/badge/App%20Size-15.95%20MB-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
 
