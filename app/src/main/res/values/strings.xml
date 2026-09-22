@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Rick Relay</string>
+    <string name="fgs_special_use_reason">Monitors incoming store payment SMS and relays summary to employees.</string>
+</resources>

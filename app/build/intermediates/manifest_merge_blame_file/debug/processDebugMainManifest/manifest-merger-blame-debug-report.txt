@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.brd.relay"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- SMS Permissions -->
+12    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+12-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:5:5-70
+12-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:5:22-67
+13    <uses-permission android:name="android.permission.SEND_SMS" />
+13-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:6:5-67
+13-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.READ_SMS" />
+14-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:7:5-67
+14-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:7:22-64
+15
+16    <!-- Multi-SIM Support Permission -->
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:10:5-75
+17-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:10:22-72
+18
+19    <!-- Foreground Service Permissions -->
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:13:5-77
+20-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:13:22-74
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+21-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:14:5-87
+21-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:14:22-84
+22    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+22-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:15:5-77
+22-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:15:22-74
+23
+24    <permission
+24-->[androidx.core:core:1.13.0] /mnt/hdd/.gradle/caches/transforms-4/906753b1313d0d6416aa8391cc212691/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+25        android:name="com.brd.relay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.13.0] /mnt/hdd/.gradle/caches/transforms-4/906753b1313d0d6416aa8391cc212691/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.13.0] /mnt/hdd/.gradle/caches/transforms-4/906753b1313d0d6416aa8391cc212691/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.brd.relay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.13.0] /mnt/hdd/.gradle/caches/transforms-4/906753b1313d0d6416aa8391cc212691/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.13.0] /mnt/hdd/.gradle/caches/transforms-4/906753b1313d0d6416aa8391cc212691/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:17:5-57:19
+31        android:allowBackup="true"
+31-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:18:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.13.0] /mnt/hdd/.gradle/caches/transforms-4/906753b1313d0d6416aa8391cc212691/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@drawable/rick_icon"
+35-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:19:9-43
+36        android:label="Rickest Rick Relay"
+36-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:21:9-43
+37        android:roundIcon="@drawable/rick_icon"
+37-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:20:9-48
+38        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
+38-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:22:9-77
+39
+40        <!-- Initial Branch Login Screen -->
+41        <activity
+41-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:25:9-32:20
+42            android:name="com.brd.relay.ui.LoginActivity"
+42-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:26:13-58
+43            android:exported="true" >
+43-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:27:13-36
+44            <intent-filter>
+44-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:28:13-31:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:29:17-69
+45-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:29:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:30:17-77
+47-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:30:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <!-- Main Dashboard -->
+52        <activity
+52-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:35:9-37:40
+53            android:name="com.brd.relay.ui.MainActivity"
+53-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:36:13-57
+54            android:exported="false" />
+54-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:37:13-37
+55
+56        <!-- Foreground SMS Forwarding Service -->
+57        <service
+57-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:40:9-44:56
+58            android:name="com.brd.relay.services.RelayForegroundService"
+58-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:41:13-73
+59            android:enabled="true"
+59-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:42:13-35
+60            android:exported="false"
+60-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:43:13-37
+61            android:foregroundServiceType="dataSync" />
+61-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:44:13-53
+62
+63        <!-- High-Priority SMS Interceptor Receiver -->
+64        <receiver
+64-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:47:9-55:20
+65            android:name="com.brd.relay.receivers.SmsInterceptReceiver"
+65-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:48:13-72
+66            android:enabled="true"
+66-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:49:13-35
+67            android:exported="true"
+67-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:50:13-36
+68            android:permission="android.permission.BROADCAST_SMS" >
+68-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:51:13-66
+69            <intent-filter android:priority="999" >
+69-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:52:13-54:29
+69-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:52:28-50
+70                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+70-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:53:17-82
+70-->/mnt/hdd/Desktop/BRD_RELAY/app/src/main/AndroidManifest.xml:53:25-79
+71            </intent-filter>
+72        </receiver>
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.3.0] /mnt/hdd/.gradle/caches/transforms-4/1887968b9453b65aa905f72b1f88a7f7/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.3.0] /mnt/hdd/.gradle/caches/transforms-4/1887968b9453b65aa905f72b1f88a7f7/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+76            android:authorities="com.brd.relay.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.3.0] /mnt/hdd/.gradle/caches/transforms-4/1887968b9453b65aa905f72b1f88a7f7/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.3.0] /mnt/hdd/.gradle/caches/transforms-4/1887968b9453b65aa905f72b1f88a7f7/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.3.0] /mnt/hdd/.gradle/caches/transforms-4/1887968b9453b65aa905f72b1f88a7f7/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.3.0] /mnt/hdd/.gradle/caches/transforms-4/1887968b9453b65aa905f72b1f88a7f7/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.3.0] /mnt/hdd/.gradle/caches/transforms-4/1887968b9453b65aa905f72b1f88a7f7/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.6.2] /mnt/hdd/.gradle/caches/transforms-4/ac41fc5dde15c4a4b3f6a5e608d90d03/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.6.2] /mnt/hdd/.gradle/caches/transforms-4/ac41fc5dde15c4a4b3f6a5e608d90d03/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.6.2] /mnt/hdd/.gradle/caches/transforms-4/ac41fc5dde15c4a4b3f6a5e608d90d03/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+86                android:value="androidx.startup" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+87        </provider>
+88
+89        <receiver
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+90            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+91            android:directBootAware="false"
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+92            android:enabled="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+93            android:exported="true"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+94            android:permission="android.permission.DUMP" >
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+96                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+99                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+102                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+105                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /mnt/hdd/.gradle/caches/transforms-4/7c763804dde89eb727ed288f84600f33/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+106            </intent-filter>
+107        </receiver>
+108    </application>
+109
+110</manifest>

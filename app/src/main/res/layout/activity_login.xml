@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0C10" 
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Rick Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="BRD RELAY"
+        android:textColor="#66FCF1"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Dimension C-137 SMS Gateway"
+        android:textColor="#45A29E"
+        android:textSize="14sp" />
+
+    <!-- Shop Name Input (Hidden on returning logins) -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilShopName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Shop / Dimension Name"
+        app:hintTextColor="#66FCF1"
+        app:boxStrokeColor="#66FCF1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCustomShopName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:textColor="#FFFFFF" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Local PIN Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPin"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:hint="4-Digit Security PIN"
+        app:hintTextColor="#66FCF1"
+        app:boxStrokeColor="#66FCF1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etShopPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:textColor="#FFFFFF" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Rick-style Button -->
+    <Button
+        android:id="@+id/btnEnterPortal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#1F2833"
+        android:text="OPEN PORTAL"
+        android:textColor="#66FCF1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:strokeColor="#66FCF1"
+        app:strokeWidth="2dp" />
+
+    <!-- Snarky Footer -->
+    <TextView
+        android:id="@+id/tvRickQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="*burp* Don't forget the PIN, Morty."
+        android:textColor="#C5C6C7"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
